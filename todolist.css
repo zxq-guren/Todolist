@@ -1,0 +1,105 @@
+body{
+    margin:0;
+    padding:0;
+    background: #CDCDCD;
+}
+
+#header{
+    width:100%;
+    height:50px;
+    background-color:rgba(47,47,47,0.98);
+}
+
+.mie-bar{
+    margin:0 27.5%;
+}
+
+label{
+    float: left;
+    width: 110px;
+    line-height: 50px;
+    color: #DDD;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#text{
+    float:right;
+    margin-top:11px;
+    width:50%;
+    height:24px;
+    border-radius:5px;
+    text-indent:10px;
+    font-family:"微软雅黑";
+    outline:none;
+}
+
+h2{
+    display:inline-block;
+    width:100%;
+}
+#todo,#done,#dele{
+    display: inline-block;
+    padding: 0 5px;
+    height: 20px;
+    border-radius: 20px;
+    background: #E6E6FA;
+    line-height: 22px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    float:right;
+    cursor: pointer;
+}
+
+.mie-list{
+    background-color:white;
+    border-left:10px solid #5CACEE;
+    width:100%;
+    height:50px;
+    margin-bottom:15px;
+    border-radius: 10px;
+    min-width:200px;
+}
+
+.fuck{
+    width: 22px;
+    height: 22px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    float:left;
+}
+
+.pt{
+    display:inline-block;
+    position: relative;
+    bottom:5px;
+    width:50%;
+    margin-top:18px;
+    white-space:nowrap;
+    overflow: hidden;
+}
+
+.but{
+    display:inline-block;
+}
+
+.dele,.disc{
+    float:right;
+    margin-top:13px;
+    margin-right:20px;
+}
+
+.mie-done,.mie-dele{
+    border-left:10px solid #DEDEDE;
+    opacity:0.3;
+}
+
+.mie-dele p{
+    padding-left:25px;
+}
+
+.mie-yin{
+    display:none;
+}

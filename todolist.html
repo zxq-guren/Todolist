@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TodoList</title>
+        <link rel="stylesheet" href="todolist.css" media="screen" title="no title" charset="utf-8">
+    </head>
+    <body>
+        <div id='header'>
+            <div class='mie-bar'>
+                <label id='title' for='title'>ToDoList</label>
+                <input id='text' type='text' placeholder="添加ToDo~" required="required" autocomplete='off'>
+            </div>
+        </div>
+        <div id='my-list'>
+            <div id='lists-todo' class='mie-bar'>
+                <h2>正在进行<span id='todo'>0</span></h2>
+                <div id='list-todo'></div>
+            </div>
+            <div id='lists-done' class='mie-bar'>
+                <h2>已经完成<span id='done'>0</span></h2>
+                <div id='list-done' class='mie-yin'></div>
+            </div>
+            <div id='dele-lists' class='mie-bar'>
+                <h2>回收站<span id='dele'>0</span></h2>
+                <div id='dele-list'></div>
+            </div>
+        </div>
+
+    </body>
+    <script src='todolist.js'></script>
+</html>
